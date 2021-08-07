@@ -61,7 +61,7 @@ Ranks are `SSS` `SS` `S` `AAA` `AA` `A` `B` `C` `UNKNOWN` `SECRET`.
 |  SSS, SS, S  | You are at a hard to reach rank. You can brag.  |
 |  AAA, AA, A  | You can reach the rank if you do your best. Let's aim here first.  |
 |  B, C  | You are in a growing process.  |
-| UNKOWN | You have not yet taken action. Let's act first. |
+| UNKNOWN | You have not yet taken action. Let's act first. |
 | SECRET | The rank is very rare. The trophy will not be displayed until the conditions are met. |
 
 ## Secret Rank
@@ -96,6 +96,8 @@ Therefore, if you come up with interesting conditions, I am waiting for contribu
 * [theme](#apply-theme)
 * [margin-w](#margin-width)
 * [margin-h](#margin-height)
+* [no-bg](#transparent-background)
+* [no-frame](#hide-frames)
 
 
 ## Filter by titles
@@ -172,6 +174,14 @@ Available themes.
 | [gruvbox](#gruvbox) |
 | [dracula](#dracula) |
 | [monokai](#monokai) |
+| [chalk](#chalk) |
+| [nord](#nord) |
+| [alduin](#alduin) |
+| [darkhub](#darkhub) |
+| [juicyfresh](#juicyfresh) |
+| [buddhism](#buddhism) |
+| [oldie](#oldie) |
+
 
 ### flat
 
@@ -222,6 +232,77 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=monokai
   <img width="660" src="https://user-images.githubusercontent.com/6661165/93725426-2c289e80-fbea-11ea-96a4-f6490ccf2126.png">
 </p>
 
+### chalk
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=chalk
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/94294003-1de7d300-ff9a-11ea-91d1-60417a4d919b.png">
+</p>
+
+### nord
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=nord
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/94346857-7ab2be80-006a-11eb-9082-36d377ae2531.png">
+</p>
+
+
+### alduin
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=alduin
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/99085932-2a88bf00-260c-11eb-9b26-d2f125773831.png">
+</p>
+
+### darkhub
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=darkhub
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/102801126-249ab080-43f8-11eb-91c8-f56f94c35777.png">
+</p>
+
+### juicyfresh
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=juicyfresh
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/104810094-edbc8c80-5835-11eb-8c20-a76192a00728.png">
+</p>
+
+### buddhism
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=buddhism
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/113709167-2412f500-971d-11eb-9ee5-0ab292cf8b4c.png">
+</p>
+
+### oldie
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=oldie
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/113709581-a0a5d380-971d-11eb-8583-770dc4091ebf.png">
+</p>
+
 
 ## Margin Width
 
@@ -255,6 +336,36 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&column=3&margin-w=15&m
 
 <p align="center">
   <img width="360" src="https://user-images.githubusercontent.com/6661165/93668677-ff309a80-fac8-11ea-8ae3-3e3e8adbef39.png">
+</p>
+
+## Transparent background
+
+You can turn the background transparent.  
+`Available value: boolean type (true or false)`  
+`Default: no-bg=false`
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&no-bg=true
+```
+
+<p align="center">
+  <img width=660 src="https://user-images.githubusercontent.com/6661165/104810864-ed72c000-583a-11eb-863b-04acffb705ea.png">
+</p>
+
+
+
+## Hide frames
+
+You can hide the frames around the trophies.  
+`Available value: boolean type (true or false)`  
+`Default: no-frame=false`
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&no-frame=true
+```
+
+<p align="center">
+  <img width=660 src="https://user-images.githubusercontent.com/6661165/104810887-1d21c800-583b-11eb-8f0d-785c1640dc5d.png">
 </p>
 
 
