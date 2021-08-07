@@ -1,7 +1,7 @@
 <p align="center">
   <img width="140" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png" />  
   <h2 align="center">Github Profile Trophy</h2>
-  <p align="center">🏆 Add dynamically generated GitHub Trophy on your readme</p>
+  <p align="center">🏆 Add dynamically generated GitHub Stat Trophies on your readme</p>
 </p>
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy/issues">
@@ -59,7 +59,7 @@ Ranks are `SSS` `SS` `S` `AAA` `AA` `A` `B` `C` `UNKNOWN` `SECRET`.
 |  Rank  |  Description  |
 | ---- | ---- |
 |  SSS, SS, S  | You are at a hard to reach rank. You can brag.  |
-|  AAA, AA, A  | You can reach the rank if you do your best. Let's aim here first.  |
+|  AAA, AA, A  | You will reach the rank if you do your best. Let's aim here first.  |
 |  B, C  | You are in a growing process.  |
 | UNKNOWN | You have not yet taken action. Let's act first. |
 | SECRET | The rank is very rare. The trophy will not be displayed until the conditions are met. |
@@ -181,7 +181,9 @@ Available themes.
 | [juicyfresh](#juicyfresh) |
 | [buddhism](#buddhism) |
 | [oldie](#oldie) |
-
+| [radical](#radical) |
+| [onestar](#onestar) |
+| [discord](#discord) |
 
 ### flat
 
@@ -303,6 +305,35 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=oldie
   <img width="660" src="https://user-images.githubusercontent.com/6661165/113709581-a0a5d380-971d-11eb-8583-770dc4091ebf.png">
 </p>
 
+### radical
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=radical
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/116633521-adbc8800-a994-11eb-97c4-e45a32721491.png">
+</p>
+
+### onestar
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onestar
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/122048400-2af46d00-ce1c-11eb-94e0-c2c6ddaf6819.png">
+</p>
+
+### discord
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=discord
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/122048628-7dce2480-ce1c-11eb-9792-1e600b384c4d.png">
+</p>
 
 ## Margin Width
 
@@ -373,8 +404,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&no-frame=true
 
 ## Environment
 
-* Deno >= v1.3.0
-* typescript == 3.9.7
+* Deno >= v1.9.2
 * [Vercel](https://vercel.com/)
 * GitHub API v4
 
